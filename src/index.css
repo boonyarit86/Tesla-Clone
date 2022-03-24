@@ -4,6 +4,7 @@
   color: #393c41;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,6 +14,16 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 @keyframes animateDown {
